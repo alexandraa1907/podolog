@@ -1,0 +1,323 @@
+
+/* Кнопка в меню */
+.button-menu button {
+    margin: 0 0 0 0;
+    border-radius: 15px;
+    background-color: rgb(188, 161, 235);
+    color: white;
+    font-size: 17px;
+    padding: 7px 35px 7px 35px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+
+.button-banner button {
+    margin: 0 0 0 0;
+    border-radius: 15px;
+    background-color: rgb(188, 161, 235);
+    color: white;
+    font-size: 20px;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+
+
+/* Картинка медицинский маникюр 1 раздел */
+
+.img-med-text {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-med {
+    font-family: 'Lobster', cursive;
+    width: 80%;
+    
+}
+
+.text-MED {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.img-med {
+    width: 40%;
+    margin: 50px 0 50px 80px;
+}
+
+.all-med {
+    margin: 20px 0 0 60px;
+}
+
+.img-med img {
+    width: 550px;
+    border-radius: 15px;  
+    
+}
+
+/*  */
+
+/* Картинка медицинский маникюр 2 раздел */
+
+.img-med-text2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-med2 {
+    font-family: 'Lobster', cursive;
+    width: 70%;
+    
+}
+
+.text-MED2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.all-med2 {
+    width: 50%;
+    margin: 30px 0 0 50px;
+}
+
+.img-med2 {
+    width: 40%;
+    margin: 50px 30px 10px 10px;
+}
+
+.img-med2 img {
+    width: 550px;
+    border-radius: 15px;  
+    
+}
+
+/*  */
+
+/* Таблички преимуществ */
+
+.preim{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+}
+
+.preim-cell{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.block1234{
+    border: 2px solid #1f1f1f;
+    border-radius: 35px;
+    width: 20%;
+    height: 330px;
+    margin: 15px; 
+    background: linear-gradient(135deg, #f7f2ff, #ddd1fd);
+    box-shadow: 5px 5px 5px rgba(93, 91, 94, 0.5);
+}
+
+
+
+.preim_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.preim_title1234 {
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;   
+    margin: 15px;
+}
+
+.consultat-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+/*  */
+
+/* Таблица цен */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+table {
+    width: 86%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    margin: 0 auto;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #6a0dad; /* Глубокий лиловый */
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f3eafc; /* Светло-лиловый */
+}
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Белый */
+}
+tr:hover {
+    background-color: #e2d1f8; /* Цвет при наведении */
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+th:first-child, td:first-child {
+    border-left: 3px solid #6a0dad; /* Лиловая полоса */
+}
+
+
+/* Форма */
+
+.forma {
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'Lobster', cursive;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f7f2ff, #ddd1fd);
+    box-shadow: 5px 5px 5px rgba(93, 91, 94, 0.5);
+    margin: 0 0 20px 0;
+}
+
+
+
+.field {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form_section1 {
+    width: 42%;
+    margin: 0 0 0 110px;
+  
+    
+}
+
+.input-space input{
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin: 20px 0 25px 0;
+    border-radius: 8px;
+    background-color:#ffffff;
+    border: 2px solid rgba(93, 91, 94, 0.5);
+}
+
+.textarea-form textarea{
+    width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 8px;
+    background-color: #ffffff
+}
+
+
+.button-form button{
+    display: block;
+    width: 170px;
+    height: 37px;
+    margin: 15px 140px 15px 165px;
+    border-radius: 15px;
+    background-color: rgb(188, 161, 235);
+    color: white;
+    font-size: 20px;
+}  
+
+.dop-info {
+    font-size: 20px;
+    
+}
+
+/* КАРТА */
+
+.forma-map {
+    display: flex;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Максимальная ширина карты */
+    height: 500px; /* Высота карты */
+    margin: auto;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* Вопрос - Ответ */
+.question{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+    
+.answer123{
+    font-size: 27px;
+    font-family: 'Lobster', cursive;
+    /* background-color: #f3eafc; */
+    background: linear-gradient(135deg, #ddd1fd, #f7f2ff);
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(93, 91, 94, 0.5);
+    width: 93%;
+    border-radius: 35px;
+    padding: 15px;
+    
+}
+
+.answer {
+    margin: 0 0 0 100px;
+    
+}
+
+.answer-pict {
+    position: relative;
+}
+
+.strelochka123 {
+    width: 35px;
+    top: 23%; 
+    right: 8%;
+    position: absolute;
+}
+
