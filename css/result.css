@@ -176,6 +176,31 @@
 
 }
 
+.before-after-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* margin: 20px 0 20px 0;    */
+    margin-bottom: 20px;
+}
+
+.before-after-card {
+    width: 47%; 
+    position: relative;
+    padding-top: 62%;
+}
+
+.before-after-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .text-before {
     margin: 0 auto;
     font-family: 'Lobster', cursive;
@@ -233,6 +258,15 @@
         max-width: 19%;
         margin: 35px;
 
+    }
+
+    .before-after-cards {
+        justify-content: space-around;
+    }
+
+    .before-after-card {
+        padding-top: 24%;
+        width: 19%;
     }
 
 }

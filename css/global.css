@@ -30,11 +30,19 @@ nav,section,footer,header {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 a {
     text-decoration: none; /* Убирает подчеркивание */
     color: inherit; /* Наследует цвет текста родителя (например, родительского блока) */
+}
+
+.main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .header {
@@ -408,7 +416,12 @@ body {
 }
 
 @media (min-width: 768px) {
- 
+    
+    .main-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     .right-menu {
         display: flex;
         
@@ -436,6 +449,11 @@ body {
 }
 
 @media (min-width: 1080px) {
+
+    .main-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
     .registration a, .main-menu-link{
         margin: 0 7px 0 7px;
