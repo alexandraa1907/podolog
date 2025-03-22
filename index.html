@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="css/global.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,25 +16,65 @@
 
     <div class="container">
         <header class="header">
-
+            <div class="overlay"></div>
             <div class="menu">
                 <div class="left-menu">
-                    <div class="logo">
-                        <img src="Pict/logo.jpg" alt="logo">
-                    </div>
-                    <div class="text">
+                    
+                    <nav class="text">
                         <div class="registration">
-                            <a href="index.html">О нас</a>
-                            <a href="service.html">Услуги</a>
-                            <a href="result.html">Результаты</a>
-                            <a href="price.html">Прайс</a>
-                            <a href="contact.html">Констакты</a>
+                            <div class="main-menu-item">
+                                <a href="index.html">О нас</a>
+                            </div>
+                            <div class="main-menu-item">
+                                <span class="main-menu-link">Услуги</span>
+                                <div class="boss-sub-menu">
+                                    <div class="sub-menu">
+                                        <a href="#">Маникюр, педикюр медицинский</a>
+                                    <!-- </div> -->
+                                    <!-- <div class="sub-menu"> -->
+                                        <a href="#">Ортониксия-коррекционные системы</a>
+                                    <!-- </div> -->
+                                    <!-- <div class="sub-menu"> -->
+                                        <a href="#">Вросший ноготь</a>
+                                    <!-- </div>    
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Работа с вирусными (ПВЧ)</a>
+                                    <!-- </div>
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Микозы (грибковые инфекции)</a>
+                                    <!-- </div>
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Работа со стопами</a>
+                                    <!-- </div>
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Кератозы (трещины, мазоли, натоптыши)</a>
+                                    <!-- </div>
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Эстетика (маникюр, педикюр)</a>
+                                    <!-- </div>
+                                    <div class="sub-menu"> -->
+                                        <a href="#">Юридические аспекты</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-menu-item">
+                                <a href="result.html">Результаты</a>
+                            </div>
+                            <div class="main-menu-item">
+                                <a href="price.html">Прайс</a>
+                            </div>
+                            <div class="main-menu-item">
+                                <a href="contact.html">Контакты</a>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
+                <div class="logo">
+                        <img src="Pict/logo2.svg" alt="logo">
+                    </div>
                 <div class="right-menu">
                     <div class="time">
-                        <img src="Pict/time.jpg">
+                        <img src="Pict/time.svg">
                     </div>
 
                     <div class="registration1">
@@ -41,7 +82,7 @@
                     </div>
 
                     <div class="button-menu">
-                        <button type="submit" class="menu-but">Оставить заявку</button>
+                        <button type="submit" class="menu-but">Записаться на приём</button>
                     </div>
                     
                 </div>
@@ -52,12 +93,12 @@
         </header>
 
 
-        <main>
+        <main class="main">
 
                 <div class="content">
                     
                     <div class="img-center">
-                        <img src="Pict/center2.jpg">
+                        <img src="Pict/center5.jpg">
                     </div>
 
                     <!-- <div class="o-centre"> -->
@@ -89,7 +130,11 @@
                             <p class="consultat-text-grey">наші послуги</p>
                             <p class="consultat-text">Подологічні послуги</p>
                         </div>
-                        <button type="submit" class="button-service">перейти на сторінку послуги</button>
+                        <!-- <button type="submit" class="button-service">перейти на сторінку послуги</button> -->
+
+                        <div class="marquee-container">
+                            <div class="marquee">ЗДОРОВЫЕ СТОПЫ – УВЕРЕННОСТЬ В КАЖДОМ ШАГЕ! </div>
+                        </div>
                     </div>
                     <!-- <p class="cell_title">Подологические услуги</p> -->
                     <div class="special-cell">
@@ -97,9 +142,14 @@
                             <a href="med-nails.html">
                                     <div class="block">
                                         <img src="Pict/feet.png" alt="Иконка вросшего ногтя" class="icon">
+                                        <div class="special-service"> 
+                                            <p class="special_title">Маникюр, педикюр медицинский</p> 
+                                            <p class="special-text-grey">ознакомиться с услугой подробнее</p>   
+                                        </div>
                                     </div>
-
-                                    <p class="special_title">Маникюр, педикюр медицинский</p>
+                                    
+                                    
+                                    
                             </a>
                         </div>
                         
@@ -107,8 +157,12 @@
                             <a href="orthonyxia.html">
                                 <div class="block">
                                     <img src="Pict/feet2.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Ортониксия-коррекционные системы</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
                                 </div>
-                                <p class="special_title">Ортониксия-коррекционные системы</p>
+                                
                             </a>
                         </div>
 
@@ -117,9 +171,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/feet3.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Вросший ноготь</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
                                 </div>
 
-                                <p class="special_title">Вросший ноготь</p>
+                                
 
                             </div>
                             </a>
@@ -133,9 +191,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/virus.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Работа с вирусными (ПВЧ)</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>    
                                 </div>
 
-                                <p class="special_title">Работа с вирусными (ПВЧ)</p>
+                                
 
                             </div>
                             </a>
@@ -147,10 +209,14 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/mushroom.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Микозы (грибковые инфекции)</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
+
                                 </div>
 
-                                <p class="special_title">Работа с микозами (грибковыми инфекциями)</p>
-
+                                
                             </div>
                             </a>
                         </div>
@@ -160,10 +226,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/feet4.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Работа со стопами</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
                                 </div>
 
-                                <p class="special_title">Работа со стопами</p>
-
+                                
                             </div>
                             </a>
                         </div>
@@ -176,9 +245,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/feet5.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Кератозы (трещины, мазоли, натоптыши)</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>    
                                 </div>
 
-                                <p class="special_title">Кератозы (трещины, мазоли, натоптыши)</p>
+                                
 
                             </div>
                             </a>
@@ -190,9 +263,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/feet6.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Эстетика (маникюр, педикюр)</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
                                 </div>
 
-                                <p class="special_title">Эстетика (маникюр, педикюр)</p>
+                                
 
                             </div>
                             </a>
@@ -203,10 +280,13 @@
                             <div class="blue-block">
                                 <div class="block">
                                     <img src="Pict/book.png" alt="Иконка вросшего ногтя" class="icon">
+                                    <div class="special-service"> 
+                                        <p class="special_title">Юридические аспекты</p> 
+                                        <p class="special-text-grey">ознакомиться с услугой подробнее</p>  
+                                    </div>
                                 </div>
 
-                                <p class="special_title">Юридические аспекты</p>
-
+                                
                             </div>
                             </a>
                         </div>
@@ -232,14 +312,15 @@
                             </div>
                             <div class="overlay"></div>
                                 <p class="number">01</p>
-                                <p class="preim_title">У Нас безпечно ! </p>
-                                <p class="preim_title1234">
-                                    Ми витримуємо всі етапи та процеси обробки , стерилізації та зберігання інструментів
-                                    згідно стандартів ВООЗ.
-                                    Дезинфекція приміщень .
-                                    Використовужмо тільки сетифіковане обладнання та засоби дезінфекції.
-                                </p>
-                            
+                                <div class="all-preim">
+                                    <p class="preim_title">У Нас безпечно ! </p>
+                                    <p class="preim_title1234">
+                                        Ми витримуємо всі етапи та процеси обробки , стерилізації та зберігання інструментів
+                                        згідно стандартів ВООЗ.
+                                        Дезинфекція приміщень .
+                                        Використовужмо тільки сетифіковане обладнання та засоби дезінфекції.
+                                    </p>
+                                </div>
                         </div>
 
                         <div class="block1234">
@@ -248,13 +329,14 @@
                             </div>
                             <div class="overlay"></div>
                                 <p class="number">02</p>
-                                <p class="preim_title">Професіоналізм</p>
-                                <p class="preim_title1234">
-                                    Наші спеціалісти регулярно поновлювать знання , проходять курси підвищення
-                                    кваліфікації, відвідують міжнародні конгреси та конференції.
-                                    Мы співпрацюємо із вузькопрофільними лікарями та лабораторіями.
-                                </p>
-                            
+                                <div class="all-preim">
+                                    <p class="preim_title">Професіоналізм</p>
+                                    <p class="preim_title1234">
+                                        Наші спеціалісти регулярно поновлювать знання , проходять курси підвищення
+                                        кваліфікації, відвідують міжнародні конгреси та конференції.
+                                        Мы співпрацюємо із вузькопрофільними лікарями та лабораторіями.
+                                    </p>
+                                </div>
                         </div>
 
                         <div class="block1234">
@@ -263,13 +345,14 @@
                             </div>
                             <div class="overlay"></div>
                                 <p class="number">03</p>
-                                <p class="preim_title">Конфіденційність</p>
-                                <p class="preim_title1234">
-                                У нашому центрі ви знаходитесь один на один зі спеціалістом у затишному, 
-                                окремому кабінеті. Ми подбали про створення зонованих приміщень, що забезпечують 
-                                максимальний комфорт і спокій для кожного клієнта.
-                                </p>
-                            
+                                <div class="all-preim">
+                                    <p class="preim_title">Конфіденційність</p>
+                                    <p class="preim_title1234">
+                                    У нашому центрі ви знаходитесь один на один зі спеціалістом у затишному, 
+                                    окремому кабінеті. Ми подбали про створення зонованих приміщень, що забезпечують 
+                                    максимальний комфорт і спокій для кожного клієнта.
+                                    </p>
+                                </div>
                         </div>
 
                         <div class="block1234">
@@ -278,14 +361,16 @@
                             </div>
                             <div class="overlay"></div>
                                 <p class="number">04</p>
-                                <p class="preim_title4"> Комфорт</p>
-                                <p class="preim_title1234">
-                                    Зручні крісла, сучасне обладнання , легка музика , кава / чай /вода... вы зможете
-                                    максимально комфортно провести час процедури.
-                                    Також для зручності у нас ви можете придбати професійні засоби для домашнього
-                                    догляду, перев'язок високого рівня якості.
-                                </p>
-                            
+                                <div class="all-preim">
+                                    <p class="preim_title"> Комфорт</p>
+                                    <p class="preim_title1234">
+                                        Зручні крісла, сучасне обладнання , легка музика , кава / чай /вода... вы зможете
+                                        максимально комфортно провести час процедури.
+                                        Також для зручності у нас ви можете придбати професійні засоби для домашнього
+                                        догляду, перев'язок високого рівня якості.
+                                    </p>
+                                </div>
+
                         </div>
                     </div>
 
@@ -302,16 +387,17 @@
                                 <p class="consultat-text">Записаться на консультацию или прием</p>
                             </div>
                                 <form action="" method="" class="form-style">
-                                    <div class="name-surname">
-                                        <div class="input-spaceName"><input type="text" placeholder="Имя" id="useremail" value="" class="text"></div>
-                                        <div class="input-spaceName"><input type="text" placeholder="Фамилия" id="useremail" value="" class="text"></div>
-                                    </div>
-                                    <div class="input-space"><input type="tel" placeholder="Телефон" id="useremail" value="" class="text"></div>
-                                    <div class="input-space"><input type="date" class="date-input"></div>
-                                    <p class="dop-info">Дополнительная информация</p>
-                                    <div class="textarea-form"><textarea name="message" id="f-message" class="textarea-form"></textarea></div>
-                                    <div class="button-form"><button type="submit">Отправить</button></div>
-                            
+                                    <!-- <div class="all-form"> -->
+                                        <div class="name-surname">
+                                            <div class="input-spaceName"><input type="text" placeholder="Имя" id="useremail" value="" class="text"></div>
+                                            <div class="input-spaceName"><input type="text" placeholder="Фамилия" id="useremail" value="" class="text"></div>
+                                        </div>
+                                        <div class="input-space"><input type="tel" placeholder="Телефон" id="useremail" value="" class="text"></div>
+                                        <div class="input-space"><input type="date" class="date-input"></div>
+                                        <p class="dop-info">Дополнительная информация</p>
+                                        <div class="textarea-form"><textarea name="message" id="f-message" class="textarea-form"></textarea></div>
+                                        <div class="button-form"><button type="submit">Отправить</button></div>
+                                    <!-- </div> -->
                             </form>
                         </div>
                     </div>
@@ -329,45 +415,32 @@
             <footer class="footer">
                 <div class="footer-container">
                     <p>&copy; 2025 Health, beauty and body studio. All rights reserved.</p>
-                    <ul class="footer-links">
+                    <!-- <ul class="footer-links">
                         <li><a href="#">Instagram </a></li>
                         <li><a href="#">Telegram +380663267004</a></li>
                         <li><a href="#">Viber +380663267004</a></li>
-                    </ul>
+                    </ul> -->
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/t.petrova_podo_proff?igsh=MWkwOHZrNDBpdWgweQ==" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://t.me/Petrovapodo" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+                    </a>
+                    <!-- <a href="viber://chat?number=%2B380663267004">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Viber">
+                    </a> -->
+                    <a href="viber://chat?number=+1234567890" target="_blank">
+                        <img src="Pict/viber6.png" alt="Viber" width="50">
+                    </a>
+                    
                 </div>
             </footer>
 
 
 
         </main>
-    </div>
-
-
-    <div class="popup">
-
-        <div class="forma">
-            <div class="field">
-                <form action="" method="" class="form-style">
-                    <div class="input-space"><input type="text" placeholder="Имя" id="useremail" value="" class="text">
-                    </div>
-                    <div class="input-space"><input type="text" placeholder="Фамилия" id="useremail" value=""
-                            class="text"></div>
-                    <div class="input-space"><input type="tel" placeholder="Телефон" id="useremail" value=""
-                            class="text"></div>
-                    <div class="input-space"><input type="date" class="date-input"></div>
-                    <p class="dop-info">Дополнительная информация</p>
-                    <div class="textarea-form"><textarea name="message" id="f-message" class="textarea-form"></textarea>
-                    </div>
-                    <div class="button-form"><button type="submit">Отправить</button></div>
-                </form>
-            </div>
-
-            <button class="cross-right">
-                <div class="cross">
-                </div>
-            </button>
-
-        </div>
     </div>
 
     <script src="js/script.js" defer></script>
